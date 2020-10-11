@@ -12,7 +12,7 @@ jobs:
     - name: add keys
       env:
         KEYS: ${{ secrets.KEYS }}
-      run: echo $KEYS > app/src/main/res/values/keys.xml
+      run: echo $KEYS > C:\Users\Pc Adrien\AndroidStudioProjects\Bootcamp\app
 
     - name: Make gradlew executable
       run: chmod +x ./gradlew
