@@ -15,7 +15,7 @@ jobs:
       run: echo $KEYS > C:\Users\Pc Adrien\AndroidStudioProjects\Bootcamp\app\src\main\res\values\key.xml
 
     - name: Make gradlew executable
-      run: chmod +x ./gradlew
+      run: chmod +x C:\Users\Pc Adrien\AndroidStudioProjects\Bootcamp
 
     - name: run tests
       uses: reactivecircus/android-emulator-runner@v2
